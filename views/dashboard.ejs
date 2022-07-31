@@ -1,0 +1,12 @@
+<%- include('header') -%>
+
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-5 border py-5 mt-5">
+        <h3>Welcome to the Bridge Dashboard</h3>
+        <h5 class="cap bright"><%= locals.user ? user: "User"%></h5>
+        <a class="vivid" href="/route/logout">Logout</a>
+    </div>
+    <div class="eye"></div>
+</div>
+
+<%- include('footer') -%>
